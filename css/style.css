@@ -1,0 +1,13 @@
+.title {
+    color: aqua;
+    background-color: crimson;
+    padding: 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    justify-content: center;
+
+}
+.result {
+    color: green;
+    
+}
