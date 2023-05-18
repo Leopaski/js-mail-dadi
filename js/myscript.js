@@ -1,17 +1,21 @@
-const usernumber= ;
-const computernumber= ;
-function getRandomArbitrary(min, max) {
-    return usernumber=Math.random() * (1 - 6) + 1;
-  }
-  function getRandomArbitrary(min, max) {
-    return computernumber=Math.random() * (1 - 6) + 1;
-  }
+const usernumber= Math.floor(Math.random()*6+1);
+const computernumber= Math.floor(Math.random()*6+1);
 if (computernumber>usernumber) {
-    console.log ('hai perso!')
+  document.getElementById("end").innerHTML='hai perso!'
 } else if (computernumber<usernumber) {
-    console.log ('daje,hai vinto')
+    document.getElementById("end").innerHTML= 'daje,hai vinto'
 }else {
-    console.log ('avete pareggiato')
+  document.getElementById("end").innerHTML= 'avete pareggiato'
+}
+
+
+
+const listaemail = [];
+const email= prompt ('inserisci la tua email');
+let foundemail = false;
+for(let i=0; i<= listaemail.length -1; i++){
+      listaemail[i]=== email
+      foundemail=true;
 }
 
   
